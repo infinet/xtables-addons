@@ -1,0 +1,6 @@
+# -*- Makefile -*-
+
+EXTRA_CFLAGS = -I${src}/..
+
+obj-m += xt_WGOBFS.o
+xt_WGOBFS-objs += xt_WGOBFS_main.o chacha8.o

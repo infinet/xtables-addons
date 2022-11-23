@@ -1,0 +1,3 @@
+# -*- Makefile -*-
+
+obj-${build_WGOBFS}     += libxt_WGOBFS.so

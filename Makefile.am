@@ -1,7 +1,7 @@
 # -*- Makefile -*-
 
 ACLOCAL_AMFLAGS  = -I m4
-SUBDIRS          = extensions extensions/ACCOUNT extensions/pknock
+SUBDIRS          = extensions extensions/ACCOUNT extensions/pknock extensions/WGOBFS
 
 bin_SCRIPTS = geoip/xt_geoip_query
 pkglibexec_SCRIPTS = asn/xt_asn_build asn/xt_asn_dl asn/xt_asn_fetch \

@@ -83,5 +83,5 @@ AC_SUBST([kbuilddir])
 AC_SUBST([xtlibdir])
 AC_CONFIG_FILES([Makefile Makefile.iptrules Makefile.mans
 	extensions/Makefile extensions/ACCOUNT/Makefile
-	extensions/pknock/Makefile])
+	extensions/pknock/Makefile extensions/WGOBFS/Makefile])
 AC_OUTPUT
